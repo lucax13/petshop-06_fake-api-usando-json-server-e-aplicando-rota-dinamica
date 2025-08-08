@@ -2,6 +2,19 @@
 
 Projeto de uma aplicação web SPA usando Next.js, Typescript e Supabase (Baas - Back-End as a Service).
 
+## 06-petshop_fake-api-usando-json-server-e-aplicando-rota-dinamica
+
+- instalação e configuração do `json-server` como dependencia de desenvolvedor
+- Utilização do `fetch` com `async/await` na pagina Home
+para construir posts da fake-api
+- substituição do array fixo de posts por dados da fake-api
+- configuração de rota dinamica com carregamento de dados a partir de parametros da rota
+- uso de `Promise` como tipo para a prop `params`
+- geração de metadados dinamicos usando a função `generateMetadata`
+- refatoração da programação de busca de dados na fake-api usando uma função dedicada (`buscarPostPorID`)
+
+---
+
 ## 05_home-com-lista-de-posts-a-partir-de-um-array
 
 - Configuração e exportação de um novo tipo `Post.ts`
